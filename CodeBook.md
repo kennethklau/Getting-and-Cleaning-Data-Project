@@ -34,4 +34,15 @@ The following changes were made to the data
    
    ---(i) The first 2947 rows are from the test files
    
-   ---(ii) The remaining 7352 rows are from the train files   
+   ---(ii) The remaining 7352 rows are from the train files
+   
+3. The summary file (uploaded through the course project app)
+
+   This first column contains the subject id.
+   
+   The second column contain the activity discription. 
+   
+   The remainging columns are the mean of the corresponding values of subject/activity combination.
+   
+   This files contains 35 rows.
+
