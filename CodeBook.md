@@ -1,6 +1,6 @@
-The following changes were made to the data
+The following changes have been made to the data
 
-1. The column Activity was based on the 'test_Y.txt' and 'train_Y.txt' files.
+1. The column Activity is based on the 'test_Y.txt' and 'train_Y.txt' files.
    The values in these two files are numerics.
    The values in the resulting file is based on the file 'activity_labels.txt.
    
@@ -28,7 +28,8 @@ The following changes were made to the data
    ---(iii) Triming of the file. Not all data of these three files ('features.txt','X_test.txt' and 'X_train.txt') are
          included. Only variable representing means and standard deviations are included. To facilitate this selection the
          variables with the word mean or std are included. Also the angles between vectors are not included. The X_test.txt
-         and X_train.txt have 561 columns. The trimmed file has only 79 columns.
+         and X_train.txt have 561 columns. The trimmed file has only 79 columns. The discription of these heading are
+         contains in 'featues_info.txt'.
    
    (d) The rows.
    
@@ -40,9 +41,9 @@ The following changes were made to the data
 
    This first column contains the subject id.
    
-   The second column contain the activity discription. 
+   The second column contains the activity discription. 
    
    The remainging columns are the mean of the corresponding values of subject/activity combination.
    
-   This files contains 35 rows.
+   This file contains 35 rows.
 
